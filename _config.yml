@@ -7,6 +7,8 @@
 # 6. Jekyll collections settings
 # 7. Site settings
 
+remote_theme: daviddarnes/garth
+
 # 1. Files excluded from Jekyll builds
 exclude:
 - README.md
