@@ -1,7 +1,5 @@
 ---
-layout: page
+layout: audio
 title: audio
 permalink: /audio/
 ---
-
-glitchpit audio division

@@ -62,7 +62,7 @@ defaults:
 # 7. Site settings
 encoding: utf-8 # Make sure the encoding is right
 title: "glitch pit" # Site name or title
-logo: "/logos/glitch-pit-tv-b.png" # Site logo
+logo: "/assets/logos/glitch-pit-tv-b.png" # Site logo
 # favicon: "/favicon.ico" # Uncomment to add custom favicon, or leave as is to use site logo
 description: "audio visual services" # Site description and default description
 url: "https://glitchpit.github.io/" # Site url
