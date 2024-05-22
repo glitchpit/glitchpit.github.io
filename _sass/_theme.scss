@@ -2,7 +2,8 @@
 body {
   background: $backgroundColour;
   color: $bodyColour;
-  height: 100%;
+  //height: 100vh;
+  width: 100%;
   display: flex;
   @include flex-direction(column);
   overflow-x: hidden;
@@ -78,6 +79,8 @@ body {
 
 // Main content
 .main {
+  width: 100%;
+  height: auto;
   @include flexbox;
   @include flex-direction(column);
   @include flex(1, 0, auto);
@@ -85,6 +88,44 @@ body {
   @include breakpoint(break-1) {
     @include flex-direction(row);
   }
+}
+
+//home page
+.home-video {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.plane {
+  height: 100vh;
+  display: block;
+  vertical-align: bottom;
+  width: 100%;
+  z-index: 0;
+  opacity: 0.8;
+}
+
+.gp-title {
+  font-size: 13vh;
+  font-weight: bolder;
+  font-family: monospace;
+  color: #780094;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.gp-caption {
+    font-size: 5vh;
+    font-weight: bolder;
+    font-family: monospace;
+    color: #105900;
+    position: absolute;
+    top: 63%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 //pedal layouts
@@ -113,9 +154,9 @@ body {
 
 
 //video
-.video body, html {
+.video {
   width: 100%;
-  height: 1500px;
+  height: 200vh;
   margin: 0;
   padding: 0;
 }
@@ -123,9 +164,10 @@ body {
 .video-feed-row {
   display: flex;
   width: 100%;
-  height: 1500px;
+  height: 200vh;
   flex-direction: column;
   align-items: center;
+  overflow: hidden;
 }
 
 .video-feed-col {
