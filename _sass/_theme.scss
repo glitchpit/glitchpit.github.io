@@ -118,7 +118,8 @@ body {
 }
 
 .gp-caption {
-    font-size: 5vh;
+    overflow: auto;
+    font-size: 3vh;
     font-weight: bolder;
     font-family: monospace;
     color: #105900;
