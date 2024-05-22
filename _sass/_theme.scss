@@ -99,7 +99,7 @@ body {
 .plane {
   height: 90vh;
   vertical-align: bottom;
-  width: 100%;
+  width: 100vw;
   z-index: 0;
   opacity: 0.8;
 }
@@ -114,11 +114,11 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   -webkit-text-stroke: 2px black;
+  line-height: 0.35;
 }
 
 .gp-caption {
-    overflow: auto;
-    font-size: 4vh;
+    font-size: 3.9vh;
     font-weight: bolder;
     font-family: monospace;
     color: #105900;
@@ -127,6 +127,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     -webkit-text-stroke: 2px black;
+    line-height: 1.6;
 }
 
 //pedal layouts
