@@ -97,7 +97,7 @@ body {
 }
 
 .plane {
-  height: 90vh;
+  height: 85vh;
   vertical-align: bottom;
   width: 100vw;
   z-index: 0;
@@ -132,9 +132,13 @@ body {
 
 //pedal layouts
 .pedal-layout-row {
-  display: flex;
-  flex-wrap: wrap;
+  display: block;
   padding: 0 4px;
+
+  @media only screen and (min-width: 1024px) {
+   display: flex;
+   flex-wrap: wrap;
+ }
 }
 
 .pedal-layout-col {
