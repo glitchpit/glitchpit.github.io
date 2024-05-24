@@ -1,6 +1,22 @@
+<!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Add font awesome icons -->
 <header class="header">
+
   <div class="container">
-    {% if site.logo %}{% include site-logo.html %}{% endif %}
-    {% include site-nav.html %}
+
+    <div class="header-social">
+      <a href="#" class="fa fa-youtube"></a>
+      <a href="#" class="fa fa-instagram"></a>
+    </div>
+
+    <div class="header-center">
+      <a href="/audio"><h3>audio</h3></a>
+      {% if site.logo %}{% include site-logo.html %}{% endif %}
+      <a href="/video"><h3>video</h3></a>
+    </div>
+
+    <!--{% include site-nav.html %}-->
   </div>
 </header>

@@ -36,8 +36,30 @@ body {
 }
 
 .header {
-  @include flex(0, 0, auto);
+  //@include flex(0, 0, auto);
   background: darken($backgroundColour, 10%);
+  display: flex;
+  flex-direction: column;
+  .container {
+    width: 100vw;
+  }
+}
+
+/* Style all font awesome icons */
+.fa {
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa-youtube {
+  //background: #D00000;
+  color: white;
+}
+
+.fa-instagram {
+  color: white;
 }
 
 .logo {
@@ -45,10 +67,29 @@ body {
   line-height: 0;
   border-radius: 100%;
   overflow: hidden;
+  //margin: auto;
   img {
     width: 4rem;
     height: 4rem;
   }
+}
+
+.header-center {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  width: 90vw;
+  //float: right;
+}
+
+.header-center a {
+  color: white;
+}
+
+.header-social {
+  //float: left;
 }
 
 .small {
@@ -185,9 +226,9 @@ body {
   width: 20vh;
 
   @media only screen and (min-width: 1024px) {
-    margin-top: -30px;
+    margin-top: 17vh;
     vertical-align: middle;
-    transform: scale(0.8);
+    transform: scale(1.7);
  }
 }
 

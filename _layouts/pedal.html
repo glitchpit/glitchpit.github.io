@@ -16,19 +16,17 @@ layout: default
 -->
 		<div class="pedal-desc-row">
 		  <div class="pedal-desc-col">
-		      <img src="../assets/pedals/images/{{page.pedal-image}}" alt="">
+		      <img src="http://localhost:4000/assets/pedals/images/{{page.pedal-image}}" alt="">
 		  </div>
 		  <div class="pedal-layout-col">
-		      <img src="../assets/pedals/images/{{page.pedal-title}}" alt="">
-		      <h1>a heavy fuzz for the freaks</h1>
+		      <img src="http://localhost:4000/assets/pedals/images/{{page.pedal-title}}" alt=""> <!-- 272 x 77pt -->
+		      <h1>{{page.slogan}}</h1>
 					<div class="buy-now-btn">
 						<h3>buy now</h3>
 					</div>
+					{{content}}
 		  </div>
 		</div>
-
-
-    {{ content }}
 
   </article>
 
