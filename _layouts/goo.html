@@ -1,0 +1,37 @@
+---
+layout: default
+---
+
+{% include site-header.html %}
+
+<main class="main  container">
+
+	<article class="article  article--page  content  typeset">
+		<!--
+    <div class="goo-main">
+      <img class="goo-fuzz-title" src="../assets/pedals/images/goo-title.png" alt="">
+      <img class="goo-fuzz-img" src="../assets/pedals/images/goo-fuzz.png" alt="">
+
+    </div>
+-->
+		<div class="pedal-desc-row">
+		  <div class="pedal-desc-col">
+		      <img src="../assets/pedals/images/{{page.pedal-image}}" alt="">
+		  </div>
+		  <div class="pedal-layout-col">
+		      <img src="../assets/pedals/images/{{page.pedal-title}}" alt="">
+		      <h1>a heavy fuzz for the freaks</h1>
+					<div class="buy-now-btn">
+						<h3>buy now</h3>
+					</div>
+		  </div>
+		</div>
+
+
+    {{ content }}
+
+  </article>
+
+</main>
+
+{% include site-footer.html %}

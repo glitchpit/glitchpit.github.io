@@ -158,6 +158,57 @@ body {
   margin-top: -80px;
 }
 
+//goo fuzz
+
+.pedal-desc-row {
+  display: block;
+  padding: 0 4px;
+
+  @media only screen and (min-width: 1024px) {
+   display: flex;
+   flex-wrap: wrap;
+ }
+}
+
+.pedal-desc-col {
+  margin-top: 20px;
+  flex: 50%;
+  padding: 0 4px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.pedal-desc-col img {
+  vertical-align: middle;
+  height: 40vh;
+  width: 20vh;
+
+  @media only screen and (min-width: 1024px) {
+    margin-top: -30px;
+    vertical-align: middle;
+    transform: scale(0.8);
+ }
+}
+
+.pedal-desc-col h4{
+  margin-top: -80px;
+}
+
+.buy-now-btn {
+  position: relative;
+  margin: 5vh auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #44B549;
+  width: 20vh;
+  height: 7vh;
+}
+
+.buy-now-btn h3 {
+  margin-top: -3vh;
+}
 
 //video
 .video {
