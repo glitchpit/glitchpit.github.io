@@ -22,4 +22,8 @@ release-date: jan 2022
 weight: 666 g
 ---
 
-the first fuzz ever built by glitchpit.
+volume: 
+
+fuzz:
+
+tone:

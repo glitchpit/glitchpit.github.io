@@ -23,3 +23,9 @@ weight: 666 g
 
 features:
 ---
+
+volume:
+
+fuzz:
+
+tone:

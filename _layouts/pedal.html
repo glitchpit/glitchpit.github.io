@@ -14,7 +14,11 @@ layout: default
 				</div>
 				<div class="pedal-layout-col" style="background-color: #{{page.bg-color}}; padding-bottom: 5vh;">
 						<img class="pedal-title-img" src="../assets/pedals/images/{{page.pedal-title}}" alt=""> <!-- 272 x 77pt -->
+						{% if page.slogan-type == 'img' %}
+						<img class="pedal-slogan-img" src="../assets/pedals/images/{{page.slogan-img}}" alt="">
+						{% else %}
 						<h1>{{page.slogan}}</h1>
+						{% endif %}
 						<div class="buy-now-btn" style="background-color: #{{page.buy-now-color}}">
 							<h3><a href="{{page.buy-link}}"></a>{{page.order-status}}</h3>
 						</div>
@@ -34,7 +38,7 @@ layout: default
 				<div class="pedal-desc-row" >
 						<div class="pedal-desc-col" style="background-color: #{{page.bg-color}}">
 							<h2>features</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent lectus massa, tincidunt in ornare sed, sodales ut quam. Phasellus dapibus porttitor nibh. Aliquam eleifend ultricies scelerisque. Aliquam erat volutpat. Etiam rhoncus est turpis, vel pretium quam consectetur quis. </p>
+							<p>{{content}} </p>
 						</div>
 						<div class="pedal-desc-col" id="specs-col" style="background-color: #{{page.bg-color}}">
 							<h2>specifications</h2>

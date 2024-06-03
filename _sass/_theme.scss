@@ -10,6 +10,10 @@ body {
   font-family: Courier !important;
 }
 
+body p {
+
+}
+
 .container {
   width: 90%;
   max-width: 900px;
@@ -204,6 +208,7 @@ body {
   @media only screen and (min-width: 1024px) {
    display: flex;
    flex-wrap: wrap;
+   align-items: flex-end;
  }
 }
 
@@ -228,6 +233,13 @@ body {
   margin-bottom: -5vh;
 }
 
+.opamp-title-img {
+  @media only screen and (min-width: 1024px) {
+   padding-bottom: 3vh;
+ }
+
+}
+
 //pedal description page
 .pedal-desc-page {
 
@@ -245,6 +257,7 @@ body {
 
 
 .pedal-desc-row {
+  width: 100%;
   display: block;
   padding: 0 4px;
   justify-content: center;
@@ -281,7 +294,7 @@ body {
     vertical-align: middle;
 
     transform: scale(1.6);
-    margin-left: 9vw;
+    //margin-left: 3vw;
 
  }
 }
@@ -313,7 +326,8 @@ body {
   width: 100%;
   @media only screen and (min-width: 1024px) {
     //padding-left: 7vw;
-    padding-top: 6vh;
+    padding-top: 9vh;
+    padding-bottom: 3vh;
  }
 }
 
@@ -367,6 +381,10 @@ body {
   float: right;
 }
 
+
+
+
+
 //video
 .video {
   width: 100%;
@@ -404,11 +422,11 @@ body {
 }
 */
 
-.unoffical-videos {
+.unofficial-videos {
   height: 50%;
 }
 
-.unoffical-videos-iframe {
+.unofficial-videos-iframe {
   width: 100%;
   height: 90%;
 }

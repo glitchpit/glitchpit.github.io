@@ -23,3 +23,9 @@ dimensions: 6 x 6 x 6
 release-date: jan 2022
 weight: n/a
 ---
+
+volume:
+
+fuzz:
+
+tone:
