@@ -2,7 +2,7 @@
 body {
   background: $backgroundColour;
   color: $bodyColour;
-  //height: 100vh;
+  height: 100%;
   width: 100%;
   display: flex;
   @include flex-direction(column);
@@ -123,6 +123,7 @@ body {
 
 .footer {
   border-top: 1px solid darken($backgroundColour, 15%);
+  background-color: darken($backgroundColour, 10%);
 }
 
 
@@ -218,19 +219,40 @@ body {
   transform: scale(0.8);
 }
 
-.pedal-layout-col h4{
-  margin-top: -80px;
+.audio-goo-img {
+  margin-top: -100px;
 }
 
-//goo fuzz
+.audio-goo-title {
+  margin-bottom: -5vh;
+}
+
+//pedal description page
+.pedal-desc-page {
+
+  @media only screen and (min-width: 1024px) {
+   margin-left: -18vw;
+   margin-right: -10vw;
+
+ }
+
+}
+
+.pedal-title-img {
+  padding-top: 3vh;
+}
+
 
 .pedal-desc-row {
   display: block;
   padding: 0 4px;
+  justify-content: center;
+  align-items: flex-start;
 
   @media only screen and (min-width: 1024px) {
    display: flex;
    flex-wrap: wrap;
+   margin-left: 7vh;
  }
 }
 
@@ -241,6 +263,11 @@ body {
   text-align: center;
   justify-content: center;
   align-items: center;
+
+}
+
+.pedal-desc-col p {
+  text-align: left;
 }
 
 .pedal-desc-col img {
@@ -249,9 +276,12 @@ body {
   width: 20vh;
 
   @media only screen and (min-width: 1024px) {
-    margin-top: 17vh;
+    margin-top: 13vh;
     vertical-align: middle;
-    transform: scale(1.7);
+
+    transform: scale(1.6);
+    margin-left: 9vw;
+
  }
 }
 
@@ -265,13 +295,70 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #44B549;
-  width: 20vh;
-  height: 7vh;
+  //background-color: #44B549;
+  width: 23vh;
+  height: 9vh;
 }
 
 .buy-now-btn h3 {
   margin-top: -3vh;
+}
+
+.audio-player {
+
+}
+
+#demo-video {
+  width: 100%;
+  @media only screen and (min-width: 1024px) {
+    //padding-left: 7vw;
+    padding-top: 6vh;
+ }
+}
+
+.pedal-demo-vid {
+  //margin-top: 3vh;
+  width: 100%;
+  height: 66vh;
+  float: left;
+}
+
+.pepper-gif {
+  //margin-top: 10vh;
+  width: 100%;
+  height: 60vh;
+  float: left;
+  background-repeat: repeat;
+  background-image: url('../audio/assets/pedals/images/pepper.gif');
+}
+
+#specs-col {
+
+}
+
+.spec-list {
+  list-style-type: none;
+  float: left;
+  text-align: right;
+  list-style-position: inside;
+  //margin-left: 3vw;
+}
+
+.spec-list-val {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-right: 3vw;
+}
+
+.spec-list-item {
+  padding-bottom: 6px;
+}
+
+.spec-list-item p {
+  display: inline;
+  float: right;
 }
 
 //video
@@ -329,6 +416,7 @@ body {
   width: 100%;
   height: 90%;
 }
+
 
 /*
 .unoffical-videos-iframe {
