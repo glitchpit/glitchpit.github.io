@@ -10,6 +10,7 @@ description: The first glitchpit pedal ever built. A clone of the Big Muff OP AM
 bg-img: ww2soldier.png
 bg-color: 002F0C
 
+order-status: out of stock
 buy-now-color: 100000
 
 bypass: true

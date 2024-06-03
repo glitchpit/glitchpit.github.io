@@ -5,63 +5,47 @@ layout: default
 {% include site-header.html %}
 <body class="pedal-body" style="background-color: #{{page.bg-color}}; background-image: url(../assets/pedals/images/{{page.bg-img}}); background-repeat: repeat; background-size: 15vw;">
 
+	<main class="main  container" id="pedal-container">
 
-<main class="main  container" id="pedal-container">
-
-	<article class="article  article--page  content  typeset">
-		<!--
-    <div class="goo-main">
-      <img class="goo-fuzz-title" src="../assets/pedals/images/goo-title.png" alt="">
-      <img class="goo-fuzz-img" src="../assets/pedals/images/goo-fuzz.png" alt="">
-
-    </div>
--->
-
-<div class="pedal-desc-page">
-	<div class="pedal-desc-row">
-		<div class="pedal-desc-col">
-				<img src="../assets/pedals/images/{{page.pedal-image}}" alt="">
-		</div>
-		<div class="pedal-layout-col" style="background-color: #{{page.bg-color}}; padding-bottom: 5vh;">
-				<img class="pedal-title-img" src="../assets/pedals/images/{{page.pedal-title}}" alt=""> <!-- 272 x 77pt -->
-				<h1>{{page.slogan}}</h1>
-				<div class="buy-now-btn" style="background-color: #{{page.buy-now-color}}">
-					{% if page.title == "sriracha fuzz" %}
-					<h3>discontinued</h3>
+		<div class="pedal-desc-page">
+			<div class="pedal-desc-row">
+				<div class="pedal-desc-col">
+						<img src="../assets/pedals/images/{{page.pedal-image}}" alt="">
+				</div>
+				<div class="pedal-layout-col" style="background-color: #{{page.bg-color}}; padding-bottom: 5vh;">
+						<img class="pedal-title-img" src="../assets/pedals/images/{{page.pedal-title}}" alt=""> <!-- 272 x 77pt -->
+						<h1>{{page.slogan}}</h1>
+						<div class="buy-now-btn" style="background-color: #{{page.buy-now-color}}">
+							<h3><a href="{{page.buy-link}}"></a>{{page.order-status}}</h3>
+						</div>
+						<h4>{{page.description}}</h4>
+				</div>
+				<div class="pedal-desc-row" id="demo-video">
+					{% if page.demo-link %}
+					<iframe class="pedal-demo-vid" width="560" height="315" src="https://www.youtube.com/embed/TeD7MxzNzIg?si=4gBRW10Bf7wxqyZU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 					{% else %}
-					<h3><a href="{{page.buy-link}}"></a>buy now</h3>
+						{% if page.title == "sriracha fuzz" %}
+						<div class="pepper-gif"></div>
+						{% else %}
+						<img class="pedal-demo-vid demo-soon" src="../assets/pedals/images/demo-soon.gif" alt="">
+						{% endif %}
 					{% endif %}
 				</div>
-				<h4>{{page.description}}</h4>
-		</div>
-		<div class="pedal-desc-row" id="demo-video">
-			{% if page.demo-link %}
-			<iframe class="pedal-demo-vid" width="560" height="315" src="https://www.youtube.com/embed/TeD7MxzNzIg?si=4gBRW10Bf7wxqyZU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-			{% else %}
-				{% if page.title == "sriracha fuzz" %}
-				<div class="pepper-gif"></div>
-				{% else %}
-				<img class="pedal-demo-vid demo-soon" src="../assets/pedals/images/demo-soon.gif" alt="">
-				{% endif %}
-			{% endif %}
-		</div>
-		<div class="pedal-desc-row" >
-				<div class="pedal-desc-col" style="background-color: #{{page.bg-color}}">
-					<h2>features</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent lectus massa, tincidunt in ornare sed, sodales ut quam. Phasellus dapibus porttitor nibh. Aliquam eleifend ultricies scelerisque. Aliquam erat volutpat. Etiam rhoncus est turpis, vel pretium quam consectetur quis. Proin elementum velit sollicitudin sollicitudin blandit. Fusce purus velit, finibus at congue sed, luctus consectetur risus. Nulla in justo volutpat, pretium metus sed, sagittis elit. Proin condimentum et nunc at iaculis. Cras placerat, lacus eget volutpat eleifend, velit metus fermentum tellus, vel sodales augue ante nec quam. Ut semper purus nisl, nec iaculis mi accumsan eu. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc viverra elit ac dui dapibus, ut faucibus nibh pharetra. Aliquam vitae nulla mollis, tempor mauris vitae, volutpat nisl. Nunc condimentum, sem at pharetra ultricies, dui ipsum fermentum est, eget molestie enim quam vitae urna.</p>
+				<div class="pedal-desc-row" >
+						<div class="pedal-desc-col" style="background-color: #{{page.bg-color}}">
+							<h2>features</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent lectus massa, tincidunt in ornare sed, sodales ut quam. Phasellus dapibus porttitor nibh. Aliquam eleifend ultricies scelerisque. Aliquam erat volutpat. Etiam rhoncus est turpis, vel pretium quam consectetur quis. </p>
+						</div>
+						<div class="pedal-desc-col" id="specs-col" style="background-color: #{{page.bg-color}}">
+							<h2>specifications</h2>
+							{% include specs-list.html %}
+						</div>
 				</div>
-				<div class="pedal-desc-col" id="specs-col" style="background-color: #{{page.bg-color}}">
-					<h2>specifications</h2>
-					{% include specs-list.html %}
-				</div>
+			</div>
 		</div>
 
-	</div>
-</div>
+	</main>
 
-  </article>
-
-</main>
 </body>
 
 {% include site-footer.html %}

@@ -10,6 +10,7 @@ description: An early glitchpit fuzz with high sustaining tones. A light fuzz th
 bg-img: reaper.svg
 bg-color: 57A14B
 
+order-status: discontinued
 buy-now-color: 100000
 
 demo-link:

@@ -10,8 +10,8 @@ description: With a chainsaw like distortion the GOO FUZZ is heavy pedal for hea
 bg-img: goo-bg.png
 bg-color: 09B034
 
+order-status: buy now
 buy-now-color: 100000
-
 
 bypass: true
 circuit: analog clone \ keeley psi fuzz
