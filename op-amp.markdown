@@ -22,8 +22,12 @@ release-date: jan 2022
 weight: 666 g
 ---
 
-volume: 
-
-fuzz:
-
-tone:
+volume: controls the output volume
+<br>
+<br>
+fuzz: gain control for adjusting fuzz strength
+<br>
+<br>
+tone: filter for tuning the fuzz tone
+<br>
+<br>
