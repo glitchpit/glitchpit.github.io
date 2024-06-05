@@ -188,7 +188,7 @@ h3 {
 }
 
 .plane {
-  height: 85vh;
+  height: 86vh;
   vertical-align: bottom;
   width: 100vw;
   z-index: 0;
@@ -201,7 +201,7 @@ h3 {
   font-family: monospace;
   color: #780094;
   position: absolute;
-  top: 40%;
+  top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
   -webkit-text-stroke: 2px black;
@@ -214,7 +214,7 @@ h3 {
     font-family: monospace;
     color: #105900;
     position: absolute;
-    top: 53%;
+    top: 43%;
     left: 50%;
     transform: translate(-50%, -50%);
     -webkit-text-stroke: 2px black;
@@ -278,6 +278,7 @@ h3 {
 
 
 .pedal-desc-row {
+
   width: 100%;
   display: block;
   padding: 0 4px;
@@ -345,6 +346,8 @@ h3 {
 
 #demo-video {
   width: 100%;
+  margin-top: 2vh;
+
   @media only screen and (min-width: 1024px) {
     //padding-left: 7vw;
     padding-top: 5vh;
@@ -357,7 +360,6 @@ h3 {
   width: 100%;
   height: 33vh;
   float: left;
-
   @media only screen and (min-width: 1024px) {
     //padding-left: 7vw;
     height: 66vh;
@@ -372,6 +374,22 @@ h3 {
   float: left;
   background-repeat: repeat;
   background-image: url('../audio/assets/pedals/images/pepper.gif');
+}
+
+#pedal-desc-break {
+  width: 100%;
+  height: 32vh;
+  //background-color: orange;
+  @media only screen and (min-width: 1024px) {
+    height: 0;
+ }
+}
+
+#pedal-info-row h1 {
+  padding-top: 1vh;
+  @media only screen and (min-width: 1024px) {
+    padding-top: 0;
+ }
 }
 
 .features-col {
