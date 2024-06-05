@@ -4,8 +4,8 @@ title: sriracha fuzz
 permalink: /audio/sriracha/
 pedal-title: sriracha-title.png
 pedal-image: sriracha.png
-slogan: light green fuzz
-description: An early glitchpit fuzz with high sustaining tones. A light fuzz that it is very reminiscent of overdrive, the sriracha fuzz was a limited build of 5, and is a staple for early supporters.
+slogan: light green fuzz<br><br>
+description: <br>An early glitchpit fuzz with high sustaining tones. A light fuzz that it is very reminiscent of overdrive, the sriracha fuzz was a limited build of 5, and is a staple for early supporters.
 
 bg-img: reaper.svg
 bg-color: 57A14B
@@ -24,7 +24,7 @@ release-date: jan 2022
 weight: n/a
 ---
 
-volume: controls the output volume
+volume: controls the master output volume
 <br>
 <br>
 fuzz: gain control for adjusting fuzz strength

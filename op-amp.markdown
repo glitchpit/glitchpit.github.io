@@ -4,8 +4,8 @@ title: op\amp fuzz
 permalink: /audio/op-amp/
 pedal-title: op-amp-title.png
 pedal-image: opamp.png
-slogan: the og
-description: The first glitchpit pedal ever built. A clone of the Big Muff OP AMP fuzz, this pedal is workhorse. Heavy fuzz tones in a small package make it a great fuzz on stage.
+slogan: <br>
+description: <br><br>The first glitchpit pedal ever built. A clone of the Big Muff OP AMP fuzz, this pedal is workhorse. Heavy fuzz tones in a small package make it a great fuzz on stage.
 
 bg-img: ww2soldier.png
 bg-color: 002F0C
@@ -22,7 +22,7 @@ release-date: jan 2022
 weight: 666 g
 ---
 
-volume: controls the output volume
+volume: controls the master output volume
 <br>
 <br>
 fuzz: gain control for adjusting fuzz strength

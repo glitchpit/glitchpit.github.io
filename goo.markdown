@@ -4,8 +4,8 @@ title: goo fuzz
 permalink: /audio/goo/
 pedal-title: goo-title.png
 pedal-image: goo-fuzz.png
-slogan: a heavy fuzz for the freaks
-description: With a chainsaw like distortion the GOO FUZZ is heavy pedal for heavy rockers. Featuring punk art by goo designs.
+slogan: heavy fuzz for the freaks<br><br>
+description: <br>With a chainsaw like distortion the GOO FUZZ is heavy pedal for heavy rockers. Featuring punk art by goo designs.
 
 bg-img: goo-bg.png
 bg-color: 09B034
@@ -24,7 +24,7 @@ weight: 666 g
 features:
 ---
 
-volume: controls the output volume
+volume: controls the master output volume
 <br>
 <br>
 fuzz: gain control for adjusting fuzz strength

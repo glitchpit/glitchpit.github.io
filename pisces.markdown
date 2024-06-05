@@ -7,7 +7,7 @@ pedal-image: pisces.png
 slogan-type: img
 slogan-img: c+d-text.png
 
-description: Take a dive in the sea with PISCES. Combining chorus and delay effects this pedal sounds like what your goldfish hears.
+description: <br>Take a dive in the sea with PISCES. Combining chorus and delay effects this pedal sounds like what your goldfish hears.
 
 bg-img: fish-bowl.png
 bg-color: 81C7EE
@@ -16,42 +16,30 @@ order-status: buy now
 buy-now-color: 100000
 
 bypass: true
-circuit: analog clone\ehx sea machine
+circuit: analog clone\eqd sea machine
 current-draw: 66 mA
 power: 9V center negative
 dimensions: 6 x 6 x 6
 release-date: jan 2022
 weight: 666 g
-
-features: "Pisces utilizes a six knob design.
-
-rate:
-
-shape:
-
-dimension:
-
-depth:
-
-animation:
-
-intensity:
-
-"
-
-
 ---
 
-Pisces utilizes a six knob design.
 
-rate:
-
-shape:
-
-dimension:
-
-depth:
-
-animation:
-
-intensity:
+rate: sets speed of low frequency oscillator (lfo)
+<br>
+<br>
+shape: adjusts the lfo waveform shape
+<br>
+<br>
+dimension: adds a delay effect
+<br>
+<br>
+depth: adjusts the amount of lfo modulation
+<br>
+<br>
+animation: sets the amplitude of the pitch shift swing
+<br>
+<br>
+intensity: wet/dry mix
+<br>
+<br>
