@@ -19,8 +19,18 @@ layout: default
 						{% else %}
 						<h1>{{page.slogan}}</h1>
 						{% endif %}
-						<div class="buy-now-btn" style="background-color: #{{page.buy-now-color}}">
-							<h3><a href="{{page.buy-link}}"></a>{{page.order-status}}</h3>
+						<div class="price">
+							{% if page.price %}
+							<div class="buy-now-btn">
+								<h1 class="price-tag">${{page.price}}</h1>
+							</div>
+							<style>
+								#buy-now-btn { margin-left: -9vw; }
+							</style>
+							{% endif %}
+							<div class="buy-now-btn" id="buy-now-btn" style="background-color: #{{page.buy-now-color}}">
+								<a href="{{page.buy-link}}"><h2 style="color: #{{page.buy-now-text-color}}">{{page.order-status}}</h2></a>
+							</div>
 						</div>
 						<h4>{{page.description}}</h4>
 				</div>
@@ -36,7 +46,7 @@ layout: default
 					{% endif %}
 				</div>
 				<div class="pedal-desc-row" id="pedal-desc-break">
-					
+
 				</div>
 				<div class="pedal-desc-row" id="pedal-info-row">
 						<div class="pedal-desc-col features-col" style="background-color: #{{page.bg-color}};">

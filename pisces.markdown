@@ -12,8 +12,12 @@ description: <br>Take a dive in the sea with PISCES. Combining chorus and delay 
 bg-img: fish-bowl.png
 bg-color: 81C7EE
 
+price: 100
+
 order-status: buy now
-buy-now-color: 100000
+buy-now-color: FDC73B
+buy-now-text-color:
+
 
 bypass: true
 circuit: analog clone\eqd sea machine

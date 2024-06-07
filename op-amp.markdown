@@ -10,6 +10,8 @@ description: <br><br>The first glitchpit pedal ever built. A clone of the Big Mu
 bg-img: ww2soldier.png
 bg-color: 002F0C
 
+price:
+
 order-status: out of stock
 buy-now-color: 100000
 

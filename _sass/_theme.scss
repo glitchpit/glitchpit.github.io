@@ -10,6 +10,10 @@ body {
   font-family: Courier !important;
 }
 
+p {
+  //color: black;
+}
+
 h1 {
   display: block;
   font-size: 2rem;
@@ -325,6 +329,20 @@ h3 {
   margin-top: -80px;
 }
 
+.price {
+  display: flex;
+  flex-direction: row;
+}
+
+.price-tag {
+  padding-right: 13vw;
+
+    @media only screen and (min-width: 1024px) {
+      padding-right: 9vw;
+    }
+
+}
+
 .buy-now-btn {
   position: relative;
   margin: 3vh auto;
@@ -336,8 +354,9 @@ h3 {
   height: 9vh;
 }
 
-.buy-now-btn h3 {
-  //margin-top: -3vh;
+.buy-now-btn a {
+  text-decoration: none;
+  color: white;
 }
 
 .audio-player {

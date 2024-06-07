@@ -10,6 +10,8 @@ description: <br>With a chainsaw like distortion the GOO FUZZ is heavy pedal for
 bg-img: goo-bg.png
 bg-color: 09B034
 
+price: 80
+
 order-status: buy now
 buy-now-color: 100000
 
