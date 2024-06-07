@@ -260,10 +260,16 @@ h3 {
 
 .opamp-title-img {
   @media only screen and (min-width: 1024px) {
-   padding-bottom: 3vh;
+   padding-bottom: 6vh;
  }
-
 }
+
+.opamp-layout-img {
+  @media only screen and (min-width: 1024px) {
+   padding-bottom: 2vh;
+ }
+}
+
 
 //pedal description page
 .pedal-desc-page {
@@ -447,7 +453,6 @@ h3 {
 //video
 .video {
   width: 100%;
-  height: 200vh;
   margin: 0;
   padding: 0;
 }
@@ -455,9 +460,10 @@ h3 {
 .video-feed-row {
   display: flex;
   width: 100%;
-  height: 200vh;
+  height: 99%;
   flex-direction: column;
   align-items: center;
+  justify-content: flex-end;
   overflow: hidden;
 }
 
@@ -470,6 +476,24 @@ h3 {
   text-align: center;
   margin-bottom: 1.5%;
 }
+
+.service-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  list-style: none;
+}
+
+.service-list li {
+  align-content: center;
+  text-align: center;
+}
+
+.service-list a {
+  color: green;
+}
+
 /*
 .video-feed-col iframe {
   flex-grow: 1;
@@ -481,57 +505,21 @@ h3 {
 }
 */
 
-.unofficial-videos {
-  height: 50%;
-}
 
 .unofficial-videos-iframe {
   width: 100%;
-  height: 90%;
-}
+  height: 66vh;
 
-.shorts {
-  height: 50%;
-  padding-bottom: 2%;
 }
 
 .shorts-iframe {
   width: 100%;
-  height: 90%;
+  height: 90vh;
 }
 
 
-/*
-.unoffical-videos-iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  width: 100%;
-  height: 100%;
-}
 
-/*
 
-.shorts {
-  position: relative;
-  overflow: hidden;
-  width: 100%;
-  padding-top: 56.25%;
-}
-
-.shorts-iframe {
-  position: relative;
-  top: 33%;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  width: 100%;
-  height: 100%;
-}
-
-*/
 // Lists
 .list {
   &--posts {
