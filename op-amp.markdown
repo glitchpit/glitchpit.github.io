@@ -16,7 +16,7 @@ order-status: out of stock
 buy-now-color: 100000
 
 bypass: true
-circuit: analog clone \ big muff op amp
+circuit: analog clone\big muff op amp
 current-draw: 66 mA
 power: 9V center negative
 dimensions: 6 x 6 x 6

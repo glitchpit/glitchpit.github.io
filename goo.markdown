@@ -16,7 +16,7 @@ order-status: buy now
 buy-now-color: 100000
 
 bypass: true
-circuit: analog clone \ keeley psi fuzz
+circuit: analog clone\keeley psi fuzz
 current-draw: 66 mA
 power: 9V center negative
 dimensions: 6 x 6 x 6
