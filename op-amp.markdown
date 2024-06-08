@@ -19,8 +19,9 @@ bypass: true
 circuit: analog clone\big muff op amp
 current-draw: 66 mA
 power: 9V center negative
-dimensions: 6 x 6 x 6
-release-date: jan 2022
+dimensions: 4.489" l 2.744" w 2.006" h
+enclosure-type: 1590B
+release-date: dec 21 2022
 weight: 666 g
 ---
 

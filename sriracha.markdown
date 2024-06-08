@@ -19,8 +19,9 @@ bypass: true
 circuit: analog clone
 current-draw: n/a
 power: 9V center negative
-dimensions: 6 x 6 x 6
-release-date: jan 2022
+dimensions: 4.489" l 2.744" w 2.006" h
+enclosure-type: 1590B
+release-date: feb 5 2023
 weight: n/a
 ---
 

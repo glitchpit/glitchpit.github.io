@@ -41,8 +41,12 @@ h3 {
 
 .container {
   width: 90%;
-  max-width: 900px;
+  max-width: 93vw;
   margin: 0 auto;
+
+  @media only screen and (min-width: 1024px) {
+    max-width: 73vw;
+  }
 }
 
 
@@ -197,6 +201,14 @@ h3 {
   width: 100vw;
   z-index: 0;
   opacity: 0.8;
+  content: url("../assets/plane-phone2.gif");
+
+  @media only screen and (min-width: 900px) {
+
+    content: url("../assets/plane.gif");
+
+  }
+
 }
 
 .gp-title {
@@ -225,6 +237,12 @@ h3 {
     line-height: 1.6;
 }
 
+
+
+
+
+
+
 //pedal layouts
 .pedal-layout-row {
   display: block;
@@ -238,18 +256,32 @@ h3 {
 }
 
 .pedal-layout-col {
-  margin-top: 20px;
+  margin-top: 13vh;
   flex: 50%;
   padding: 0 4px;
   text-align: center;
+
+  @media only screen and (min-width: 1024px) {
+    margin-top: 20vh;
+ }
 }
+
+#small-col {
+  margin-top: 0;
+}
+
 
 .pedal-layout-col img {
-  margin-top: -30px;
+  margin-top: -29vw;
   vertical-align: middle;
-  transform: scale(0.8);
+  transform: scale(0.6);
+
+  @media only screen and (min-width: 1024px) {
+    margin-top: -16vw;
+ }
 }
 
+/*
 .audio-goo-img {
   margin-top: -100px;
 }
@@ -257,26 +289,34 @@ h3 {
 .audio-goo-title {
   margin-bottom: -5vh;
 }
+*/
 
-.opamp-title-img {
-  @media only screen and (min-width: 1024px) {
-   padding-bottom: 6vh;
- }
-}
 
 .opamp-layout-img {
   @media only screen and (min-width: 1024px) {
-   padding-bottom: 2vh;
+    margin-bottom: 1vh;
  }
 }
+
+.sriracha-layout-img {
+  @media only screen and (min-width: 1024px) {
+    margin-bottom: 1vh;
+ }
+}
+
+
+
+
+
+
 
 
 //pedal description page
 .pedal-desc-page {
 
   @media only screen and (min-width: 1024px) {
-   margin-left: -18vw;
-   margin-right: -10vw;
+   margin-left: -7vw;
+   //margin-right: -10vw;
 
  }
 
@@ -387,7 +427,7 @@ h3 {
   float: left;
   @media only screen and (min-width: 1024px) {
     //padding-left: 7vw;
-    height: 66vh;
+    height: 79vh;
  }
 }
 

@@ -19,8 +19,9 @@ bypass: true
 circuit: analog clone\keeley psi fuzz
 current-draw: 66 mA
 power: 9V center negative
-dimensions: 6 x 6 x 6
-release-date: jan 2022
+dimensions: 4.995" l 2.646" w 2.276" h
+enclosure-type: 125B
+release-date: sept 14 2023
 weight: 666 g
 
 features:
