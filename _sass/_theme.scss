@@ -323,9 +323,8 @@ h3 {
 }
 
 .pedal-title-img {
-  padding-top: 3vh;
+  padding-top: 1vh;
 }
-
 
 .pedal-desc-row {
 
@@ -343,13 +342,22 @@ h3 {
 }
 
 .pedal-desc-col {
-  margin-top: 20px;
+  //margin-top: 20px;
   flex: 50%;
   padding: 0 4px;
   text-align: center;
   justify-content: center;
   align-items: center;
 
+}
+
+#pedal-desc-info {
+  margin-top: 20px;
+  flex: 50%;
+  padding: 0 4px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .pedal-desc-col p {

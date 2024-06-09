@@ -12,12 +12,12 @@ layout: default
 				<div class="pedal-desc-col">
 						<img src="../assets/pedals/images/{{page.pedal-image}}" alt="">
 				</div>
-				<div class="pedal-layout-col" style="background-color: #{{page.bg-color}}; padding-bottom: 5vh;">
+			<div class="" id="pedal-desc-info" style="background-color: #{{page.bg-color}};">
 						<img class="pedal-title-img" src="../assets/pedals/images/{{page.pedal-title}}" alt=""> <!-- 272 x 77pt -->
 						{% if page.slogan-type == 'img' %}
 						<img class="pedal-slogan-img" src="../assets/pedals/images/{{page.slogan-img}}" alt="">
 						{% else %}
-						<h1>{{page.slogan}}</h1>
+						<h1 class="pedal-slogan-img">{{page.slogan}}</h1>
 						{% endif %}
 						<div class="price">
 							{% if page.price %}
