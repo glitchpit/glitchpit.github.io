@@ -5,7 +5,7 @@ permalink: /audio/op-amp/
 pedal-title: op-amp-title.png
 pedal-image: opamp.png
 slogan: <br>
-description: <br><br>The first glitchpit pedal ever built. A clone of the Big Muff OP AMP fuzz, this pedal is workhorse. Heavy fuzz tones in a small package make it a great fuzz on stage.
+description: <br><br>The first glitchpit pedal ever built. A clone of the Big Muff OP AMP fuzz, this pedal is workhorse. Heavy fuzz tones in a small package make it a great on stage.
 
 bg-img: ww2soldier.png
 bg-color: 002F0C

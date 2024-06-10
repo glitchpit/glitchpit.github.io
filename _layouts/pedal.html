@@ -13,6 +13,9 @@ layout: default
 						<img src="../assets/pedals/images/{{page.pedal-image}}" alt="">
 				</div>
 			<div class="" id="pedal-desc-info" style="background-color: #{{page.bg-color}};">
+						{% if page.pedal-image == 'opamp.png' %}
+						<br>
+						{% endif %}
 						<img class="pedal-title-img" src="../assets/pedals/images/{{page.pedal-title}}" alt=""> <!-- 272 x 77pt -->
 						{% if page.slogan-type == 'img' %}
 						<img class="pedal-slogan-img" src="../assets/pedals/images/{{page.slogan-img}}" alt="">
@@ -33,6 +36,7 @@ layout: default
 							</div>
 						</div>
 						<h4>{{page.description}}</h4>
+						<br>
 				</div>
 				<div class="pedal-desc-row" id="demo-video">
 					{% if page.demo-link %}
