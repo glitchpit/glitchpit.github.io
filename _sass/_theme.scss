@@ -474,7 +474,14 @@ h3 {
   float: left;
   text-align: right;
   list-style-position: inside;
+  // /font-size: 0.7em;
   //margin-left: 3vw;
+  @media only screen and (min-width: 1024px) {
+    font-size: 0.7em;
+  }
+  @media only screen and (min-width: 1370px) {
+    font-size: 1.0em;
+  }
 }
 
 .spec-list-val {
@@ -483,6 +490,13 @@ h3 {
   flex-direction: column;
   text-align: left;
   margin-right: 3vw;
+  //font-size: 0.7em;
+  @media only screen and (min-width: 1024px) {
+    font-size: 0.7em;
+  }
+  @media only screen and (min-width: 1370px) {
+    font-size: 1.0em;
+  }
 }
 
 .spec-list-item {

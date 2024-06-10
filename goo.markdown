@@ -14,6 +14,7 @@ price: 80
 
 order-status: buy now
 buy-now-color: 100000
+buy-link: https://glitchpit.bigcartel.com/product/goo-fuzz
 
 bypass: true
 circuit: analog clone\keeley psi fuzz

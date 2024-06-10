@@ -17,6 +17,7 @@ price: 100
 order-status: buy now
 buy-now-color: FDC73B
 buy-now-text-color:
+buy-link: https://glitchpit.bigcartel.com/product/pisces
 
 
 bypass: true
