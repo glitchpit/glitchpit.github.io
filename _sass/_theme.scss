@@ -54,7 +54,6 @@ h3 {
 .header,
 .footer {
   .container {
-    padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
     padding: 1rem 0;
     @include flexbox;
     @include flex-direction(column);
@@ -71,7 +70,7 @@ h3 {
 }
 
 .header {
-  //@include flex(0, 0, auto);
+  @include flex(0, 0, auto);
   background: darken($backgroundColour, 10%);
 
 
