@@ -12,9 +12,9 @@ description: <br>Take a dive in the sea with PISCES. Combining chorus and delay 
 bg-img: fish-bowl.png
 bg-color: 81C7EE
 
-price: 100
+price:
 
-order-status: buy now
+order-status: wasting
 buy-now-color: FDC73B
 buy-now-text-color:
 buy-link: https://glitchpit.bigcartel.com/product/pisces
