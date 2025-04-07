@@ -12,7 +12,7 @@ bg-color: 002F0C
 
 price:
 
-order-status: out of stock
+order-status: wasting
 buy-now-color: 100000
 
 bypass: true
