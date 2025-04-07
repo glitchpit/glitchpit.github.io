@@ -10,11 +10,11 @@ description: <br>With a chainsaw like distortion the GOO FUZZ is heavy pedal for
 bg-img: goo-bg.png
 bg-color: 09B034
 
-price: 80
+price:
 
-order-status: buy now
+order-status: wasting
 buy-now-color: 100000
-buy-link: https://glitchpit.bigcartel.com/product/goo-fuzz
+buy-link: #
 
 bypass: true
 circuit: analog clone\keeley psi fuzz
