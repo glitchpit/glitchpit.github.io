@@ -17,7 +17,7 @@ price:
 order-status: wasting
 buy-now-color: FDC73B
 buy-now-text-color:
-buy-link: https://glitchpit.bigcartel.com/product/pisces
+buy-link: #
 
 
 bypass: true
